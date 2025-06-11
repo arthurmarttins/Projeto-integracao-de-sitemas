@@ -1,0 +1,44 @@
+.formTitle {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--cor-texto-principal);
+}
+
+.formGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--cor-texto-secundario);
+}
+
+.input {
+  padding: 0.75rem;
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: all 150ms ease-in-out;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--cor-primaria);
+}
+
+.buttonContainer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+
+}

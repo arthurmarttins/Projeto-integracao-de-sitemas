@@ -1,0 +1,156 @@
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  background-color: var(--cor-fundo);
+  border-radius: 1rem;
+  box-shadow: var(--sombra-card);
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--cor-texto-principal);
+  letter-spacing: -0.025em;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.searchInputContainer {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.875rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #9ca3af;
+  pointer-events: none;
+}
+
+.searchInput {
+  padding-left: 2.75rem;
+  padding-right: 1rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: 0.5rem;
+  width: 256px;
+  transition: all 200ms ease-in-out;
+}
+
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--cor-primaria);
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border: 1px solid var(--cor-borda-suave);
+  border-radius: 0.5rem;
+}
+
+.table {
+  min-width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: var(--cor-fundo-hover);
+}
+
+.table th {
+  padding: 1rem 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--cor-texto-secundario);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--cor-borda-suave);
+}
+
+.table tr:not(:first-child):hover {
+  background-color: var(--cor-fundo-hover);
+}
+
+.table td {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #f3f4f6;
+  white-space: nowrap;
+  color: var(--cor-texto-secundario);
+}
+
+.titleCell {
+  font-weight: 500;
+  color: #111827;
+}
+
+.actionsCell {
+  text-align: center;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  padding: 0.625rem 1.25rem;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--cor-primaria);
+  outline-offset: 2px;
+}
+
+.primary {
+  background-color: var(--cor-primaria);
+  color: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.primary:hover {
+  background-color: white;
+  color: black;
+}
+
+.ghost {
+  background-color: transparent;
+  color: var(--cor-texto-secundario);
+}
+
+.ghost:hover {
+  background-color: white;
+  color: black;
+}
+
+.icon {
+  padding: 0.625rem;
+}
+
+.deleteIcon:hover {
+  color: var(--cor-vermelho) !important;
+}

@@ -1,0 +1,33 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9);
+
+}
+
+.overlayVisible {
+  opacity: 1;
+}
+
+.panel {
+  background-color: rgba(26, 26, 26, 1);
+  border-radius: 3%;
+  border-color: aliceblue;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  transform: scale(0.95);
+  transition: transform 200ms ease-in-out;
+}
+
+.overlayVisible .panel {
+  transform: scale(1);
+}
