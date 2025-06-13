@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto Front-End: Catálogo de Livros 📖
 
-## Getting Started
+![Status](https://img.shields.io/badge/status-concluído-green)
+![Linguagem](https://img.shields.io/badge/linguagem-TypeScript-blue)
+![Framework](https://img.shields.io/badge/framework-Next.js-black?logo=next.js)
 
-First, run the development server:
+Este é o repositório do front-end desenvolvido para a disciplina de **Integração de Sistemas**. O objetivo do projeto é consumir uma API RESTful de gerenciamento de livros, que foi desenvolvida por outra equipe da disciplina.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+***
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 Sobre o Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O projeto consiste em uma interface de usuário para interagir com um catálogo de livros. Ele permite visualizar, adicionar, editar e remover livros, aplicando na prática os conceitos de integração entre sistemas por meio de APIs.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+A aplicação foi construída utilizando **Next.js (React)** e se comunica com a API externa para todas as operações de dados.
 
-## Learn More
+***
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Funcionalidades
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **Listagem de Livros**: Visualiza todos os livros disponíveis na API.
+-   **Busca de Livros**: Permite buscar por um livro específico.
+-   **Cadastro de Livro**: Adiciona um novo livro ao catálogo.
+-   **Edição de Livro**: Modifica as informações de um livro existente.
+-   **Exclusão de Livro**: Remove um livro do catálogo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+***
 
-## Deploy on Vercel
+## 🛠️ Tecnologias Utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   **Framework**: `Next.js (React)`
+-   **Linguagem**: `TypeScript`
+-   **Estilização**: `CSS`
+-   **Gerenciador de Pacotes**: `NPM`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+***
+
+## 🚀 Como Executar o Projeto
+
+Siga os passos abaixo para executar o projeto localmente.
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+* [Node.js](https://nodejs.org/en/)
+* [NPM](https://www.npmjs.com/)
+* [Git](https://git-scm.com)
+
+### Instalação
+
+1.  Clone o repositório:
+    ```bash
+    git clone [https://github.com/](https://github.com/)[seu-usuario]/[seu-repositorio].git
+    ```
+
+2.  Acesse a pasta do projeto:
+    ```bash
+    cd [seu-repositorio]
+    ```
+
+3.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4.  Execute a aplicação em modo de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+5.  Abra seu navegador e acesse `http://localhost:3000`.
+
+***
+
+## 🌐 API Externa
+
+Este front-end depende de uma API externa para funcionar. A API foi desenvolvida por outra equipe da disciplina e está hospedada no seguinte endereço:
+
+-   **URL Base**: `https://api.livros.g2inovartech.com.br/api`
+
+Você pode testar a disponibilidade da API acessando o endpoint de verificação:
+`https://api.livros.g2inovartech.com.br/api/ping`
+
+***
+
+## 📸 Screenshots
+
+***
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Arthur Lago Martins**.
+
+[![LinkedIn](https://www.linkedin.com/in/arthur-martins-510b36235/)](https://www.linkedin.com/in/arthur-martins-510b36235/)
