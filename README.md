@@ -84,6 +84,8 @@ Você pode testar a disponibilidade da API acessando o endpoint de verificação
 
 ## 📸 Screenshots
 
+![image](https://github.com/user-attachments/assets/b7b5a083-290c-4fed-81b9-caa1c6130bc5)
+
 ***
 
 ## 👨‍💻 Autor
